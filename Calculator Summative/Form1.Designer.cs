@@ -59,28 +59,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(589, 208);
+            this.textBox1.Location = new System.Drawing.Point(589, 245);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(22, 20);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 208);
+            this.textBox2.Location = new System.Drawing.Point(104, 245);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(22, 20);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(252, 208);
+            this.textBox3.Location = new System.Drawing.Point(252, 245);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(22, 20);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(427, 208);
+            this.textBox4.Location = new System.Drawing.Point(427, 245);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(22, 20);
             this.textBox4.TabIndex = 4;
@@ -129,7 +129,7 @@
             // 
             this.priceLabel1.AutoSize = true;
             this.priceLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel1.Location = new System.Drawing.Point(78, 240);
+            this.priceLabel1.Location = new System.Drawing.Point(74, 268);
             this.priceLabel1.Name = "priceLabel1";
             this.priceLabel1.Size = new System.Drawing.Size(83, 16);
             this.priceLabel1.TabIndex = 9;
@@ -139,7 +139,7 @@
             // 
             this.priceLabel2.AutoSize = true;
             this.priceLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel2.Location = new System.Drawing.Point(226, 240);
+            this.priceLabel2.Location = new System.Drawing.Point(225, 268);
             this.priceLabel2.Name = "priceLabel2";
             this.priceLabel2.Size = new System.Drawing.Size(76, 16);
             this.priceLabel2.TabIndex = 10;
@@ -149,7 +149,7 @@
             // 
             this.priceLabel3.AutoSize = true;
             this.priceLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel3.Location = new System.Drawing.Point(404, 240);
+            this.priceLabel3.Location = new System.Drawing.Point(403, 268);
             this.priceLabel3.Name = "priceLabel3";
             this.priceLabel3.Size = new System.Drawing.Size(76, 16);
             this.priceLabel3.TabIndex = 11;
@@ -159,7 +159,7 @@
             // 
             this.priceLabel4.AutoSize = true;
             this.priceLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceLabel4.Location = new System.Drawing.Point(550, 240);
+            this.priceLabel4.Location = new System.Drawing.Point(549, 268);
             this.priceLabel4.Name = "priceLabel4";
             this.priceLabel4.Size = new System.Drawing.Size(90, 16);
             this.priceLabel4.TabIndex = 12;
