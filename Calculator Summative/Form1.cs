@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Calculator_Summative
 {
-    public partial class Form1 : Form
+    public partial class happpinessLabel : Form
     {
-        public Form1()
+        public happpinessLabel()
         {
             InitializeComponent();
+        }
+
+        private void buyButton_Click(object sender, EventArgs e)
+        {
+            //You  have to make it say "Party On Dude!" at the end
+            try
+            {
+
+            }
+
+            catch
+
+            {
+                letterLabel.Text = "You can only enter numbers."; 
+            }
         }
     }
 }
