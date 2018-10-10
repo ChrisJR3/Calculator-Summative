@@ -33,17 +33,17 @@
             this.cdTextBox = new System.Windows.Forms.TextBox();
             this.guitarTextBox = new System.Windows.Forms.TextBox();
             this.drumsTextBox = new System.Windows.Forms.TextBox();
-            this.musclesLabel = new System.Windows.Forms.Label();
-            this.musicLabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.friendsLabel = new System.Windows.Forms.Label();
+            this.cdLabel = new System.Windows.Forms.Label();
+            this.guitarLabel = new System.Windows.Forms.Label();
+            this.kazooLabel = new System.Windows.Forms.Label();
+            this.drumsLabel = new System.Windows.Forms.Label();
             this.priceLabel1 = new System.Windows.Forms.Label();
             this.priceLabel2 = new System.Windows.Forms.Label();
             this.priceLabel3 = new System.Windows.Forms.Label();
             this.priceLabel4 = new System.Windows.Forms.Label();
             this.letterLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.otherStuffLabel = new System.Windows.Forms.Label();
+            this.stuffLabel = new System.Windows.Forms.Label();
             this.creditCardButton = new System.Windows.Forms.Button();
             this.paymentTextBox = new System.Windows.Forms.MaskedTextBox();
             this.cashLabel = new System.Windows.Forms.Label();
@@ -89,45 +89,45 @@
             this.drumsTextBox.Size = new System.Drawing.Size(22, 20);
             this.drumsTextBox.TabIndex = 4;
             // 
-            // musclesLabel
+            // cdLabel
             // 
-            this.musclesLabel.AutoSize = true;
-            this.musclesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.musclesLabel.Location = new System.Drawing.Point(100, 93);
-            this.musclesLabel.Name = "musclesLabel";
-            this.musclesLabel.Size = new System.Drawing.Size(40, 20);
-            this.musclesLabel.TabIndex = 5;
-            this.musclesLabel.Text = "CDs";
+            this.cdLabel.AutoSize = true;
+            this.cdLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cdLabel.Location = new System.Drawing.Point(100, 93);
+            this.cdLabel.Name = "cdLabel";
+            this.cdLabel.Size = new System.Drawing.Size(40, 20);
+            this.cdLabel.TabIndex = 5;
+            this.cdLabel.Text = "CDs";
             // 
-            // musicLabel
+            // guitarLabel
             // 
-            this.musicLabel.AutoSize = true;
-            this.musicLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.musicLabel.Location = new System.Drawing.Point(248, 93);
-            this.musicLabel.Name = "musicLabel";
-            this.musicLabel.Size = new System.Drawing.Size(53, 20);
-            this.musicLabel.TabIndex = 6;
-            this.musicLabel.Text = "Guitar";
+            this.guitarLabel.AutoSize = true;
+            this.guitarLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guitarLabel.Location = new System.Drawing.Point(248, 93);
+            this.guitarLabel.Name = "guitarLabel";
+            this.guitarLabel.Size = new System.Drawing.Size(53, 20);
+            this.guitarLabel.TabIndex = 6;
+            this.guitarLabel.Text = "Guitar";
             // 
-            // label3
+            // kazooLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(585, 93);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Kazoo";
+            this.kazooLabel.AutoSize = true;
+            this.kazooLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kazooLabel.Location = new System.Drawing.Point(585, 93);
+            this.kazooLabel.Name = "kazooLabel";
+            this.kazooLabel.Size = new System.Drawing.Size(54, 20);
+            this.kazooLabel.TabIndex = 7;
+            this.kazooLabel.Text = "Kazoo";
             // 
-            // friendsLabel
+            // drumsLabel
             // 
-            this.friendsLabel.AutoSize = true;
-            this.friendsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.friendsLabel.Location = new System.Drawing.Point(423, 93);
-            this.friendsLabel.Name = "friendsLabel";
-            this.friendsLabel.Size = new System.Drawing.Size(56, 20);
-            this.friendsLabel.TabIndex = 8;
-            this.friendsLabel.Text = "Drums";
+            this.drumsLabel.AutoSize = true;
+            this.drumsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drumsLabel.Location = new System.Drawing.Point(423, 93);
+            this.drumsLabel.Name = "drumsLabel";
+            this.drumsLabel.Size = new System.Drawing.Size(56, 20);
+            this.drumsLabel.TabIndex = 8;
+            this.drumsLabel.Text = "Drums";
             // 
             // priceLabel1
             // 
@@ -179,29 +179,32 @@
             this.letterLabel.TabIndex = 13;
             this.letterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // otherStuffLabel
             // 
-            this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(-2, 1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(733, 76);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Chris\'s Kazoo Store ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.otherStuffLabel.AccessibleName = "";
+            this.otherStuffLabel.BackColor = System.Drawing.Color.Black;
+            this.otherStuffLabel.Font = new System.Drawing.Font("Palatino Linotype", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.otherStuffLabel.ForeColor = System.Drawing.Color.White;
+            this.otherStuffLabel.Location = new System.Drawing.Point(-1, -2);
+            this.otherStuffLabel.Name = "otherStuffLabel";
+            this.otherStuffLabel.Size = new System.Drawing.Size(733, 77);
+            this.otherStuffLabel.TabIndex = 14;
+            this.otherStuffLabel.Text = "Now With Other Stuff!";
+            this.otherStuffLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // stuffLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(267, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 21);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "(Now With Other Stuff!)";
+            this.stuffLabel.AccessibleName = "otherStuffLabel";
+            this.stuffLabel.AutoSize = true;
+            this.stuffLabel.BackColor = System.Drawing.Color.Black;
+            this.stuffLabel.Font = new System.Drawing.Font("Palatino Linotype", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stuffLabel.ForeColor = System.Drawing.Color.White;
+            this.stuffLabel.Location = new System.Drawing.Point(277, 54);
+            this.stuffLabel.Name = "stuffLabel";
+            this.stuffLabel.Size = new System.Drawing.Size(172, 21);
+            this.stuffLabel.TabIndex = 15;
+            this.stuffLabel.Text = "Now With Other Stuff!";
+            this.stuffLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // creditCardButton
             // 
@@ -228,6 +231,7 @@
             // cashLabel
             // 
             this.cashLabel.AutoSize = true;
+            this.cashLabel.BackColor = System.Drawing.Color.Black;
             this.cashLabel.ForeColor = System.Drawing.Color.White;
             this.cashLabel.Location = new System.Drawing.Point(61, 165);
             this.cashLabel.Name = "cashLabel";
@@ -260,22 +264,22 @@
             this.Controls.Add(this.cashLabel);
             this.Controls.Add(this.paymentTextBox);
             this.Controls.Add(this.creditCardButton);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.letterLabel);
-            this.Controls.Add(this.priceLabel4);
-            this.Controls.Add(this.priceLabel3);
             this.Controls.Add(this.priceLabel2);
-            this.Controls.Add(this.priceLabel1);
-            this.Controls.Add(this.friendsLabel);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.musicLabel);
-            this.Controls.Add(this.musclesLabel);
-            this.Controls.Add(this.drumsTextBox);
             this.Controls.Add(this.guitarTextBox);
             this.Controls.Add(this.cdTextBox);
-            this.Controls.Add(this.kazooTextBox);
+            this.Controls.Add(this.priceLabel1);
             this.Controls.Add(this.buyButton);
+            this.Controls.Add(this.letterLabel);
+            this.Controls.Add(this.priceLabel3);
+            this.Controls.Add(this.drumsTextBox);
+            this.Controls.Add(this.kazooTextBox);
+            this.Controls.Add(this.priceLabel4);
+            this.Controls.Add(this.kazooLabel);
+            this.Controls.Add(this.drumsLabel);
+            this.Controls.Add(this.guitarLabel);
+            this.Controls.Add(this.cdLabel);
+            this.Controls.Add(this.stuffLabel);
+            this.Controls.Add(this.otherStuffLabel);
             this.Name = "BackGround";
             this.Text = "Calculator";
             this.ResumeLayout(false);
@@ -290,17 +294,17 @@
         private System.Windows.Forms.TextBox cdTextBox;
         private System.Windows.Forms.TextBox guitarTextBox;
         private System.Windows.Forms.TextBox drumsTextBox;
-        private System.Windows.Forms.Label musclesLabel;
-        private System.Windows.Forms.Label musicLabel;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label friendsLabel;
+        private System.Windows.Forms.Label cdLabel;
+        private System.Windows.Forms.Label guitarLabel;
+        private System.Windows.Forms.Label kazooLabel;
+        private System.Windows.Forms.Label drumsLabel;
         private System.Windows.Forms.Label priceLabel1;
         private System.Windows.Forms.Label priceLabel2;
         private System.Windows.Forms.Label priceLabel3;
         private System.Windows.Forms.Label priceLabel4;
         private System.Windows.Forms.Label letterLabel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label otherStuffLabel;
+        private System.Windows.Forms.Label stuffLabel;
         private System.Windows.Forms.Button creditCardButton;
         private System.Windows.Forms.MaskedTextBox paymentTextBox;
         private System.Windows.Forms.Label cashLabel;
