@@ -16,7 +16,7 @@ namespace Calculator_Summative
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new happpinessLabel());
+            Application.Run(new BackGround());
         }
     }
 }
