@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buyButton = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BackGround));
             this.kazooTextBox = new System.Windows.Forms.TextBox();
             this.cdTextBox = new System.Windows.Forms.TextBox();
             this.guitarTextBox = new System.Windows.Forms.TextBox();
@@ -41,25 +41,16 @@
             this.priceLabel2 = new System.Windows.Forms.Label();
             this.priceLabel3 = new System.Windows.Forms.Label();
             this.priceLabel4 = new System.Windows.Forms.Label();
-            this.letterLabel = new System.Windows.Forms.Label();
             this.otherStuffLabel = new System.Windows.Forms.Label();
             this.stuffLabel = new System.Windows.Forms.Label();
             this.creditCardButton = new System.Windows.Forms.Button();
             this.paymentTextBox = new System.Windows.Forms.MaskedTextBox();
             this.cashLabel = new System.Windows.Forms.Label();
             this.payButton = new System.Windows.Forms.Button();
+            this.buyButton = new System.Windows.Forms.Button();
+            this.letterLabel1 = new System.Windows.Forms.Label();
+            this.buyMoreButtton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // buyButton
-            // 
-            this.buyButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buyButton.Location = new System.Drawing.Point(292, 383);
-            this.buyButton.Name = "buyButton";
-            this.buyButton.Size = new System.Drawing.Size(157, 55);
-            this.buyButton.TabIndex = 0;
-            this.buyButton.Text = "Buy";
-            this.buyButton.UseVisualStyleBackColor = true;
-            this.buyButton.Click += new System.EventHandler(this.buyButton_Click);
             // 
             // kazooTextBox
             // 
@@ -169,16 +160,6 @@
             this.priceLabel4.TabIndex = 12;
             this.priceLabel4.Text = "Price: 1234.56";
             // 
-            // letterLabel
-            // 
-            this.letterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterLabel.ForeColor = System.Drawing.Color.Red;
-            this.letterLabel.Location = new System.Drawing.Point(292, 347);
-            this.letterLabel.Name = "letterLabel";
-            this.letterLabel.Size = new System.Drawing.Size(157, 23);
-            this.letterLabel.TabIndex = 13;
-            this.letterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // otherStuffLabel
             // 
             this.otherStuffLabel.AccessibleName = "";
@@ -189,7 +170,7 @@
             this.otherStuffLabel.Name = "otherStuffLabel";
             this.otherStuffLabel.Size = new System.Drawing.Size(733, 77);
             this.otherStuffLabel.TabIndex = 14;
-            this.otherStuffLabel.Text = "Now With Other Stuff!";
+            this.otherStuffLabel.Text = "Chris\'s Kazoo Store";
             this.otherStuffLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // stuffLabel
@@ -254,12 +235,48 @@
             this.payButton.Visible = false;
             this.payButton.Click += new System.EventHandler(this.payButton_Click);
             // 
+            // buyButton
+            // 
+            this.buyButton.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buyButton.Location = new System.Drawing.Point(278, 395);
+            this.buyButton.Name = "buyButton";
+            this.buyButton.Size = new System.Drawing.Size(199, 54);
+            this.buyButton.TabIndex = 0;
+            this.buyButton.Text = "Buy";
+            this.buyButton.UseVisualStyleBackColor = true;
+            this.buyButton.Click += new System.EventHandler(this.buyButton_Click);
+            // 
+            // letterLabel1
+            // 
+            this.letterLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterLabel1.ForeColor = System.Drawing.Color.White;
+            this.letterLabel1.Location = new System.Drawing.Point(281, 352);
+            this.letterLabel1.Name = "letterLabel1";
+            this.letterLabel1.Size = new System.Drawing.Size(198, 40);
+            this.letterLabel1.TabIndex = 21;
+            this.letterLabel1.Text = "label1";
+            this.letterLabel1.Visible = false;
+            // 
+            // buyMoreButtton
+            // 
+            this.buyMoreButtton.Location = new System.Drawing.Point(627, 199);
+            this.buyMoreButtton.Name = "buyMoreButtton";
+            this.buyMoreButtton.Size = new System.Drawing.Size(75, 23);
+            this.buyMoreButtton.TabIndex = 22;
+            this.buyMoreButtton.Text = "Buy More?";
+            this.buyMoreButtton.UseVisualStyleBackColor = true;
+            this.buyMoreButtton.Visible = false;
+            this.buyMoreButtton.Click += new System.EventHandler(this.buyMoreButtton_Click);
+            // 
             // BackGround
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::Calculator_Summative.Properties.Resources.Drums;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(730, 450);
+            this.Controls.Add(this.buyMoreButtton);
             this.Controls.Add(this.payButton);
             this.Controls.Add(this.cashLabel);
             this.Controls.Add(this.paymentTextBox);
@@ -269,7 +286,6 @@
             this.Controls.Add(this.cdTextBox);
             this.Controls.Add(this.priceLabel1);
             this.Controls.Add(this.buyButton);
-            this.Controls.Add(this.letterLabel);
             this.Controls.Add(this.priceLabel3);
             this.Controls.Add(this.drumsTextBox);
             this.Controls.Add(this.kazooTextBox);
@@ -280,6 +296,8 @@
             this.Controls.Add(this.cdLabel);
             this.Controls.Add(this.stuffLabel);
             this.Controls.Add(this.otherStuffLabel);
+            this.Controls.Add(this.letterLabel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BackGround";
             this.Text = "Calculator";
             this.ResumeLayout(false);
@@ -288,8 +306,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.TextBox kazooTextBox;
         private System.Windows.Forms.TextBox cdTextBox;
         private System.Windows.Forms.TextBox guitarTextBox;
@@ -302,13 +318,15 @@
         private System.Windows.Forms.Label priceLabel2;
         private System.Windows.Forms.Label priceLabel3;
         private System.Windows.Forms.Label priceLabel4;
-        private System.Windows.Forms.Label letterLabel;
         private System.Windows.Forms.Label otherStuffLabel;
         private System.Windows.Forms.Label stuffLabel;
         private System.Windows.Forms.Button creditCardButton;
         private System.Windows.Forms.MaskedTextBox paymentTextBox;
         private System.Windows.Forms.Label cashLabel;
         private System.Windows.Forms.Button payButton;
+        private System.Windows.Forms.Button buyButton;
+        private System.Windows.Forms.Label letterLabel1;
+        private System.Windows.Forms.Button buyMoreButtton;
     }
 }
 

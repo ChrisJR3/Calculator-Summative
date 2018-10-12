@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +78,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\335768__ipaghost__chk1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\351304__guest__cha-ching.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kazoo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drums.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
