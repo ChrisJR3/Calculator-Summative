@@ -49,7 +49,7 @@
             this.payButton = new System.Windows.Forms.Button();
             this.buyButton = new System.Windows.Forms.Button();
             this.letterLabel1 = new System.Windows.Forms.Label();
-            this.buyMoreButtton = new System.Windows.Forms.Button();
+            this.newOrderButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // kazooTextBox
@@ -185,7 +185,6 @@
             this.stuffLabel.Size = new System.Drawing.Size(172, 21);
             this.stuffLabel.TabIndex = 15;
             this.stuffLabel.Text = "Now With Other Stuff!";
-            this.stuffLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // creditCardButton
             // 
@@ -257,26 +256,26 @@
             this.letterLabel1.Text = "label1";
             this.letterLabel1.Visible = false;
             // 
-            // buyMoreButtton
+            // newOrderButton
             // 
-            this.buyMoreButtton.Location = new System.Drawing.Point(627, 199);
-            this.buyMoreButtton.Name = "buyMoreButtton";
-            this.buyMoreButtton.Size = new System.Drawing.Size(75, 23);
-            this.buyMoreButtton.TabIndex = 22;
-            this.buyMoreButtton.Text = "Buy More?";
-            this.buyMoreButtton.UseVisualStyleBackColor = true;
-            this.buyMoreButtton.Visible = false;
-            this.buyMoreButtton.Click += new System.EventHandler(this.buyMoreButtton_Click);
+            this.newOrderButton.Location = new System.Drawing.Point(627, 414);
+            this.newOrderButton.Name = "newOrderButton";
+            this.newOrderButton.Size = new System.Drawing.Size(75, 23);
+            this.newOrderButton.TabIndex = 23;
+            this.newOrderButton.Text = "New Order";
+            this.newOrderButton.UseVisualStyleBackColor = true;
+            this.newOrderButton.Visible = false;
+            this.newOrderButton.Click += new System.EventHandler(this.newOrderButton_Click_1);
             // 
             // BackGround
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Calculator_Summative.Properties.Resources.Drums;
+            this.BackgroundImage = global::Calculator_Summative.Properties.Resources.KazooStore;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(730, 450);
-            this.Controls.Add(this.buyMoreButtton);
+            this.Controls.Add(this.newOrderButton);
             this.Controls.Add(this.payButton);
             this.Controls.Add(this.cashLabel);
             this.Controls.Add(this.paymentTextBox);
@@ -326,7 +325,7 @@
         private System.Windows.Forms.Button payButton;
         private System.Windows.Forms.Button buyButton;
         private System.Windows.Forms.Label letterLabel1;
-        private System.Windows.Forms.Button buyMoreButtton;
+        private System.Windows.Forms.Button newOrderButton;
     }
 }
 
