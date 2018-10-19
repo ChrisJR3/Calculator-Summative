@@ -57,21 +57,21 @@ namespace Calculator_Summative
 
         private void buyButton_Click(object sender, EventArgs e)
         {
-            cdNumber = Convert.ToDouble(cdTextBox.Text);
-            guitarNumber = Convert.ToDouble(guitarTextBox.Text);
-            drumsNumber = Convert.ToDouble(drumsTextBox.Text);
-            kazooNumber = Convert.ToDouble(kazooTextBox.Text);
-            cdCost = CD_COST * cdNumber;
-            guitarCost = GUITAR_COST * guitarNumber;
-            drumsCost = DRUMS_COST * drumsNumber;
-            kazooCost = KAZOO_COST * kazooNumber;
-            subTotal = cdCost + guitarCost + drumsCost + kazooCost;
-            totalTax = subTotal * TAX;
-            totalCost = subTotal + totalTax;
-
             try
             {
                 //This is the cash or credit card option page
+
+                cdNumber = Convert.ToDouble(cdTextBox.Text);
+                guitarNumber = Convert.ToDouble(guitarTextBox.Text);
+                drumsNumber = Convert.ToDouble(drumsTextBox.Text);
+                kazooNumber = Convert.ToDouble(kazooTextBox.Text);
+                cdCost = CD_COST * cdNumber;
+                guitarCost = GUITAR_COST * guitarNumber;
+                drumsCost = DRUMS_COST * drumsNumber;
+                kazooCost = KAZOO_COST * kazooNumber;
+                subTotal = cdCost + guitarCost + drumsCost + kazooCost;
+                totalTax = subTotal * TAX;
+                totalCost = subTotal + totalTax;
 
                 cashLabel.Visible = true;
                 payButton.Visible = true;
